@@ -9,6 +9,7 @@ public class BaseAdvertising {
         this.clicks = 0;
         this.id = objects_count;
         objects_count++;
+
     }
 
     public int getId() {
