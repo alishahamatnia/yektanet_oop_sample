@@ -51,4 +51,9 @@ public class Ad extends BaseAdvertising {
         super.incViews();
         advertiser.incViews();
     }
+    @Override
+    public String describeMe(){
+        return "this is n object from Ad class. this class designed to model an ad and make it easy to" +
+                "manage user activities";
+    }
 }
